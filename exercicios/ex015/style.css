@@ -1,0 +1,160 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+
+header{
+    background-color: #FFFFFF;
+    margin: auto;
+    width: 100%;
+    padding: 16px;
+    padding-left: 10%;
+    padding-right: 120%;
+    box-shadow: 0px 0px 2px #2b2b2b3a;
+    position: fixed;
+}
+
+hr{
+    opacity: 0.2;
+}
+
+#logoHeader{
+    height: 24px;
+}
+
+.banner{
+    width: 25%;
+    margin: auto;
+    margin-bottom: 0px;
+}
+
+body{
+    margin: 0;
+    background: linear-gradient(78.67deg, rgba(243, 146, 0, 0.37) -0.55%, rgba(243, 146, 0, 0.1776) 97.77%),
+    linear-gradient(0deg, #FFFFFF, #FFFFFF);
+
+    font: bolder 1em montserrat;
+    /* ordem: font-style -> font-weight -> font-size -> font-family*/
+
+}
+
+main{
+   
+    background-color: #FFFFFF;
+    width: 600px;
+    padding: 24px;
+    padding-top: 56px; 
+    margin: auto;
+    box-shadow: 4px 2px 8px #2b2b2b10;
+
+}
+
+h2{
+    font-weight: 900;
+    color: #82027E;
+
+}
+
+p{
+    font-weight: 300;
+    text-indent: 16px;
+    text-align: justify;
+}
+
+.logoFooter{
+    height: 32px;
+}
+
+a{
+    color: #FFFFFF;
+    text-decoration: none;
+    
+}
+
+
+.data{
+    text-indent: 0;
+}
+
+footer{
+    color: #FFFFFF;
+    background-color: #2B2B2B;
+    width: 100%;
+    padding: 24px;
+    padding-bottom: 220px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    
+}
+
+
+
+/* Codigos antigos
+p{
+    font-size: 12px;
+
+
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+h2 {
+    margin: 0;
+    box-sizing: content-box;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 24px;
+    color: #363636;
+    
+}
+
+.banner{
+    margin:0;
+    border-radius: 8px;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+button:hoover{
+    background-color: #0f105a;
+}
+
+button{
+    
+    width: 100%;
+    font-family: montserrat;
+    color: #ffffff;
+    border-radius: 40px;
+    height: 40px;
+    background-color: #262788;
+    border: none;   
+}
+
+main{
+    margin-top: 0;
+    padding-bottom: 16px;
+}
+
+section {
+    margin: 16px;
+}
+
+
+p{
+    font-size: 14px;
+}
+
+footer {
+    padding: 24px;
+    color: #ffffff;
+    background-color: #262788;
+
+}
+*/
+
+

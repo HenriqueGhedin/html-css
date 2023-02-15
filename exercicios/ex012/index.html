@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com a tag Picture</title>
+    <link rel="shortcut icon" href="imagens/foto-p.png" type="image/x-icon">
+</head>
+<body>
+    <h1>Vamos mexer com imagens</h1>  
+    <picture>
+        <source media="(max-width: 710px)" srcset="imagens/foto-p.png" type="image/png">
+        <img src="imagens/foto-m.png" alt="Foto G">
+    </picture>     
+    
+    <h1>Vamos aprender a reproduzir audios em html5</h1>
+    <audio preload="metadata" play controls>
+        <source src="midia\Ice & Fire - King Canyon.mp3" type="audio/mpeg">
+        <source src="midia\Ice & Fire - King Canyon.wav" type="audio/wav">
+        <source src="midia\Ice & Fire - King Canyon.ogg" type="audio/ogg">
+        <p>infelizmente seu navegador não consegue Reproduzir Áudio. <a href="midia/Ice & Fire - King Canyon.mp3" download="Ice & Fire - King Canyon.mp3">Clique aqui para baixar o arquivo MP3</a></p>
+    </audio>
+    <h2>Videos locais</h2>
+    <video width="500px" autoplay controls loop>
+        <source src="midia/meu-video.mp4" type="video/mp4">
+        <source src="midia/meu-video.m4v" type="video/mp4">
+        <source src="midia/meu-video.ogv" type="video/ogg">
+    </video>
+    <h2>Videos externos</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/gmW8syM1RpM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</body>
+</html>
